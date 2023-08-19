@@ -1,0 +1,113 @@
+body{
+    background-color: #FAF3F0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+.navi {
+    background-color:purple;
+    overflow: hidden;
+    width: 100%;
+    height: 60px; 
+    top: 1px;
+    display: inline-block;
+    
+  }
+  .navi a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+ 
+  .navi a:hover {
+    color: rgb(193, 67, 239);
+  }
+
+  
+  .navi >.navi-1 {
+    float: right;
+    
+    color: white;
+  }
+  
+  
+  
+  .navi >.navi-2 {
+    float: right;
+   
+    color: white;
+  }
+  
+  .navi >.navi-3 {
+    float: right;
+    
+    color: white;
+  }
+  
+  .navi >.navi-4 {
+    float: right;
+    
+    color: white;
+  }
+  
+  
+  #books{
+      width: 70%;
+      border:1px solid black;
+      text-align: center;
+  }
+ 
+  #register {
+    padding: 16px;
+   
+  }
+ 
+  input[type=text],input[type=date],input[type=number], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #eacde6;
+    
+  }
+  
+  input[type=text]:focus,input[type=date],input[type=number], input[type=password]:focus {
+    background: #eacde6;
+    outline: none;
+  }
+ 
+  .register {
+    background-color: rgb(67, 4, 70);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .register:hover {
+    opacity:1;
+  }
+  
+  table,tr,td,th{
+    border: 1px solid rgb(244, 57, 237);
+    border-collapse: collapse;
+    margin: 10px;
+    padding: 10px;
+    align-content: center;
+  }
+  
+  h1{
+    padding: 10px;
+  }
+  
